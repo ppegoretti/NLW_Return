@@ -1,0 +1,76 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\C++Falcon\Falcon\MinGW\bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.9.11-openj9\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;c:\Program Files\Microsoft SQL Server\120\Tools\Binn\;c:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Users\patrick\AppData\Local\Microsoft\WindowsApps;;C:\Users\patrick\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\patrick\AppData\Local\Yarn\bin;C:\Users\patrick\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/phosphor-react-native/-/phosphor-react-native-1.1.1.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141376:19)
+      at Object.onceWrapper (events.js:519:28)
+      at ClientRequest.emit (events.js:400:28)
+      at TLSSocket.emitRequestTimeout (_http_client.js:790:9)
+      at Object.onceWrapper (events.js:519:28)
+      at TLSSocket.emit (events.js:412:35)
+      at TLSSocket.Socket._onTimeout (net.js:495:8)
+      at listOnTimeout (internal/timers.js:557:17)
+      at processTimers (internal/timers.js:500:7)
+
+npm manifest: 
+  {
+    "name": "mobile",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@babel/preset-typescript": "^7.17.12",
+      "@expo-google-fonts/inter": "^0.2.2",
+      "@gorhom/bottom-sheet": "^4.2.2",
+      "axios": "^0.27.2",
+      "expo": "~45.0.0",
+      "expo-app-loading": "~1.3.0",
+      "expo-file-system": "~13.1.4",
+      "expo-font": "~10.0.4",
+      "expo-status-bar": "~1.2.0",
+      "intl": "^1.2.5",
+      "phosphor-react-native": "^1.1.1",
+      "react": "17.0.1",
+      "react-dom": "17.0.1",
+      "react-native": "0.64.3",
+      "react-native-gesture-handler": "~2.1.0",
+      "react-native-iphone-x-helper": "^1.3.1",
+      "react-native-reanimated": "~2.3.1",
+      "react-native-svg": "12.1.1",
+      "react-native-view-shot": "3.1.2",
+      "react-native-web": "0.17.1"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.18.0",
+      "@types/react": "~17.0.21",
+      "@types/react-native": "~0.64.12",
+      "react-native-svg-transformer": "^1.0.0",
+      "typescript": "^4.6.4"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
